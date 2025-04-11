@@ -6,7 +6,7 @@ This project applies a Mandelbrot-inspired approach to market risk modeling usin
 
 Traditional financial models often assume that asset returns follow a normal distribution. However, this assumption underestimates the probability of extreme market events. Inspired by Benoît Mandelbrot’s theories on fat tails and market turbulence, this model uses a Student's t-distribution to simulate returns with higher kurtosis, providing a more realistic view of tail risk.
 
-# What This Project Does
+# Methodology
 
 - Downloads 5 years of daily price data for Ford (F) from Yahoo Finance using `yfinance`.
 - Computes daily returns and extracts the most recent 1,000.
